@@ -10,7 +10,7 @@ const Navbar = () => {
             {navLink.map(({label})=>(
                 <li key ={label}>
                    <a href={label}>{label}</a> 
-                </li>
+                </li> 
             ))}
            </ul>
            <div className="flex-center gap-3">
